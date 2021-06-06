@@ -3,6 +3,9 @@ import os
 
 
 class ConsoleDisplay(Implementor):
+	"""
+	This class implements the interface for the
+	"""
 
 	def __init__(self):
 		super().__init__()

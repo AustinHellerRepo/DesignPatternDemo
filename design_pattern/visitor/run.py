@@ -2,7 +2,8 @@ from design_pattern.visitor.implementation import PoemSource, UserInputSource, T
 
 
 # NOTES:
-#	I am not a fan of this design pattern as it requires a cyclic dependency between both the visitor and its elements.
+#	I am not a fan of this design pattern as it requires a cyclic dependency between both the visitor and its elements
+#		as well as moving the implementation of all possible visitor elements into one soon-to-be massive class.
 #	A better implementation that accomplishes the same task is in the Strategy design pattern using dependency injection.
 
 

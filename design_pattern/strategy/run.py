@@ -17,6 +17,8 @@ _text_sources = [
 ]
 
 # perform the actions from each strategy implementor, passing in the text formatter
+# an alternative implementation would have the text formatter passed into the constructor, if it was more fundamental
+#	to the operation of the text source, impacting other functions and internal logic.
 for _text_source in _text_sources:
 	_text_source.perform_action(
 		strategy=_uppercase_text_formatter
